@@ -1,0 +1,31 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(250, 252, 227);
+}
+
+header {
+  background-color: rgb(254, 255, 248);
+}
+
+#ImgCV {
+  width: 150px;
+  border: 0;
+  height: 150px;
+  display: inline-block;
+}
+figure {
+  width: 150px;
+  padding: 0;
+  height: 150px;
+}
+aside {
+  border: 0;
+  position: absolute;
+  left: 1000px;
+  top: 30px;
+  width: 150px;
+  height: 150px;
+}
