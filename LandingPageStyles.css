@@ -8,16 +8,25 @@ body {
 }
 
 header {
-  background-color: rgb(254, 255, 248);
-  height: 170px;
+  background-color: rgb(29, 29, 29);
+  height: 250px;
+  color:rgb(218, 218, 218);
+  border: 3px solid black;
 }
 
 #Encabezado{
   margin-left: 20px;
 }
 #Encabezado p{
-  margin: 5px;
+  padding: 5px;
 }
+h1{
+  padding-top: 20px;
+}
+#Encabezado h2{
+  padding: 5px;
+}
+
 #ImgCV {
   width: 150px;
   height: 150px;
@@ -27,7 +36,7 @@ aside {
   border: 0;
   position: absolute;
   left: 1000px;
-  top: 10px;
+  top: 50px;
   width: 150px;
   margin: 0;
   height: 150px;
