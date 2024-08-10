@@ -7,14 +7,14 @@ body {
   background-color: rgb(52, 157, 228);
 }
 
+/* Header e información personal */
 header {
   background-color: rgb(29, 29, 29);
   height: 250px;
   color:rgb(218, 218, 218);
   border: 3px solid black;
 }
-
-#Encabezado{
+#Encabezado,#AboutSection{
   margin-left: 20px;
 }
 #Encabezado p{
@@ -41,3 +41,37 @@ aside {
   margin: 0;
   height: 150px;
 }
+
+/* Main y contenidos */
+
+main{
+  height: 700px;
+  background-color: rgb(245, 250, 255);
+  border: 3px solid black;
+  
+}
+
+#AboutSection{
+  margin: 0;
+}
+
+#AboutSection p{
+  padding-top: 30px;
+  padding: 30px 80px 0px 20px;
+}
+
+#AboutSection h2,#EducationSection h2,#SkillsSection h2{
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+#EducationSection ol,#SkillsSection ol{
+  font-size: 16px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+#EducationSection li,#SkillsSection li{
+  padding: 0px 0px 15px 10px;
+}
+
+
