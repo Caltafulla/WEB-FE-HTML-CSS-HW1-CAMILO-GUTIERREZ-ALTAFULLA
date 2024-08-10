@@ -4,12 +4,16 @@
 }
 
 body {
-  background-color: rgb(52, 157, 228);
+  background-color: rgb(48, 48, 48);
 }
 
 /* Header e información personal */
 header {
-  background-color: rgb(29, 29, 29);
+  background-image: url(img/Back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 80%;
   height: 250px;
   color: rgb(218, 218, 218);
   border: 3px solid black;
@@ -29,11 +33,6 @@ h1 {
 }
 
 #ImgCV {
-  width: 150px;
-  height: 150px;
-  display: inline-block;
-}
-aside {
   border: 0;
   position: absolute;
   left: 1000px;
@@ -41,8 +40,8 @@ aside {
   width: 150px;
   margin: 0;
   height: 150px;
+  border-radius: 100%;
 }
-
 /* Main y contenidos */
 
 main {
@@ -71,6 +70,17 @@ main {
 #BookSection h2 {
   padding-left: 100px;
   padding-top: 40px;
+}
+
+#ImgAbout,
+#ImgEducation,
+#ImgSkills,
+#ImgExp,
+#ImgBook {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  padding: 20px 20px 20px 20px;
 }
 
 #EducationSection ol,
