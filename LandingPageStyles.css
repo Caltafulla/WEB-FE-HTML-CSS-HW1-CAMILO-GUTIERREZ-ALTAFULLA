@@ -1,31 +1,34 @@
 * {
   font-family: monospace;
+  margin: 0;
 }
 
 body {
-  background-color: rgb(250, 252, 227);
+  background-color: rgb(52, 157, 228);
 }
 
 header {
   background-color: rgb(254, 255, 248);
+  height: 170px;
 }
 
+#Encabezado{
+  margin-left: 20px;
+}
+#Encabezado p{
+  margin: 5px;
+}
 #ImgCV {
   width: 150px;
-  border: 0;
   height: 150px;
   display: inline-block;
-}
-figure {
-  width: 150px;
-  padding: 0;
-  height: 150px;
 }
 aside {
   border: 0;
   position: absolute;
   left: 1000px;
-  top: 30px;
+  top: 10px;
   width: 150px;
+  margin: 0;
   height: 150px;
 }
